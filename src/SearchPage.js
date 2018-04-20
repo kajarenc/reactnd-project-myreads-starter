@@ -58,7 +58,7 @@ class SearchPage extends Component {
                 b.shelf = 'none'
                 const propBook = this.props.books.find(elem => (elem.id === b.id))
                 if (propBook) {
-                  b.shelf = propsBook.shelf
+                  b.shelf = propBook.shelf
                 }
                 return b
               })
